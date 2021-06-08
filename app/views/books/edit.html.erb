@@ -5,5 +5,8 @@
   <%= f.text_field :title %>
   <h4>本文</h4>
   <%= f.text_area :body %>
-  <%= f.submit '保存' %>
+  <div class="submitbuttom"><%= f.submit 'Update Book' %></div>
 <% end %>
+<%=link_to 'show',@book%>
+|
+<a class="back" href="/books">Back</a>

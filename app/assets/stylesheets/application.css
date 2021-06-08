@@ -36,6 +36,6 @@ p, ol, ul, td {
     background-color: lightBlue;
 }
 
-.alert {
-    background-color: alert_orange;
+#notice {
+    color: green;
 }
